@@ -1,0 +1,29 @@
+{
+  "Title": "Painkiller Weapons",
+  "Type": "addon",
+  "Org": "rifter",
+  "Ident": "pkweps",
+  "Tags": "entity, runtime",
+  "Schema": 1,
+  "HasAssets": true,
+  "AssetsPath": "",
+  "ResourcePaths": [],
+  "HasCode": true,
+  "CodePath": "/code/",
+  "Metadata": {
+    "ParentPackage": "facepunch.sandbox",
+    "Compiler": {
+      "RootNamespace": "Sandbox",
+      "DefineConstants": "SANDBOX;ADDON;DEBUG",
+      "NoWarn": "1701;1702;1591;"
+    },
+    "RenderMaxs": "0,0,0",
+    "RenderMins": "0,0,0",
+    "PhysicsMaxs": "0,0,0",
+    "PhysicsMins": "0,0,0",
+    "PrimaryAsset": "pkweapons.PKShotgun",
+    "Summary": "A weapon pack from the game Painkiller 2004",
+    "Description": "[W.I.P]\n\nA lot of weapons from the OG Painkiller are yet to be added\nCurrent implemented weapons:\nShotgun\nStake gun w/ combo\nChain gun\nElectrodriver w/ combo\n\nsome weapons can do a combination, quickly do a primary \u002B secondary fire\n\n[ROADMAP]\nSMG Rifle with flamethrower\nBoltgun with scatter grenades\nPainkiller melee weapon\n\nWILL NOT ADD: Soul catcher... that\u0027s the HD version\n",
+    "Public": true
+  }
+}
